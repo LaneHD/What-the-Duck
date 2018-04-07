@@ -128,7 +128,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 1.0.1
+  bundleVersion: 1.0.3
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -162,7 +162,7 @@ PlayerSettings:
   applicationIdentifier:
     Android: ch.lanehd.whattheduck
   buildNumber: {}
-  AndroidBundleVersionCode: 1
+  AndroidBundleVersionCode: 4
   AndroidMinSdkVersion: 16
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 0
@@ -262,7 +262,7 @@ PlayerSettings:
   - m_BuildTarget: Android
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 0}
+      m_Icon: {fileID: 2800000, guid: e18a878209bd3b443bbe4a6ee434ce90, type: 3}
       m_Width: 192
       m_Height: 192
       m_Kind: 0

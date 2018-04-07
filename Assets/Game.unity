@@ -404,7 +404,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DuckObject: {fileID: 107093222}
   ActivationScore: 5
-  Speed: 1
+  Speed: 1.25
   ScreenWidth: 0
   Cam: {fileID: 430182923}
   active: 0
@@ -961,7 +961,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DuckObject: {fileID: 559298752}
   ActivationScore: 10
-  Speed: 1
+  Speed: 1.3
   ScreenWidth: 0
   Cam: {fileID: 430182923}
   active: 0
@@ -1018,7 +1018,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: adde11d8896ce5f4cab8a4ceb2402ef1, type: 3}
+  m_audioClip: {fileID: 8300000, guid: c23573b331dce30479153211b4f259ba, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1657,7 +1657,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DuckObject: {fileID: 1900725046}
   ActivationScore: 15
-  Speed: 1
+  Speed: 1.15
   ScreenWidth: 0
   Cam: {fileID: 430182923}
   active: 0
