@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\Laurin\Documents\What the Duck\Temp\gradleOut\libs\unity-classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2d302418aa3482b8db770278260340aed47dd37a">
+        <dex dex="D:\Laurin\Documents\What the Duck\Temp\gradleOut\build\intermediates\pre-dexed\release\unity-classes_ae32ecc414d1a17185452392043ae9a593333427.jar" />
+    </item>
+
+</items>
