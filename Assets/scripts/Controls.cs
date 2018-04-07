@@ -18,6 +18,8 @@ public class Controls : MonoBehaviour
     public GameObject player;
     public Text highScore;
     public bool tutorial = true;
+    public Camera Cam;
+    public GameObject Discord;
     void Start()
     {
         highScore.text = PlayerPrefs.GetInt("Highscore").ToString();
@@ -27,17 +29,27 @@ public class Controls : MonoBehaviour
     {
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
-            Menu.SetActive(false);
-            UI.SetActive(true);
-            if (playing)
-                moving = true;
-            if (moving)
+            Debug.Log(Input.GetTouch(0).position);
+            Debug.Log(Discord.transform.position);
+            if (Input.GetTouch(0).position.x > Discord.transform.position.x - .5 && Input.GetTouch(0).position.y < Discord.transform.position.y + .5)
             {
-                // Move object across XY plane
-                RigidBody2D.velocity = direction * speed;
+                Debug.Log("DISCORD!");
+                Application.OpenURL("https://discord.gg/dPaFStC");
             }
-            playing = true;
+            else
+            {
+                Menu.SetActive(false);
+                UI.SetActive(true);
+                if (playing)
+                    moving = true;
+                if (moving)
+                {
+                    // Move object across XY plane
+                    RigidBody2D.velocity = direction * speed;
+                }
 
+                playing = true;
+            }
         }
     }
 
@@ -51,10 +63,10 @@ public class Controls : MonoBehaviour
             this.score.text = score++.ToString();
             tutorial = false;
         }
-        else if(collision.gameObject.tag == "Enemy")
+        else if (collision.gameObject.tag == "Enemy")
         {
             int score = Int32.Parse(this.score.text);
-            score-=2;
+            score -= 2;
             this.score.text = score.ToString();
         }
 
