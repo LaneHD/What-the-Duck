@@ -366,7 +366,7 @@ Transform:
   m_GameObject: {fileID: 107093222}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -10, y: 1.5, z: 0}
-  m_LocalScale: {x: 3.75, y: 3.75, z: 3.75}
+  m_LocalScale: {x: 2.75, y: 2.75, z: 3.75}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -782,7 +782,7 @@ Transform:
   m_GameObject: {fileID: 556206921}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -10, y: 2.75, z: 0}
-  m_LocalScale: {x: 3.75, y: 3.75, z: 3.75}
+  m_LocalScale: {x: 2.75, y: 2.75, z: 3.75}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -923,7 +923,7 @@ Transform:
   m_GameObject: {fileID: 559298752}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -10, y: 0.25, z: 0}
-  m_LocalScale: {x: 3.75, y: 3.75, z: 3.75}
+  m_LocalScale: {x: 2.75, y: 2.75, z: 3.75}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -1619,7 +1619,7 @@ Transform:
   m_GameObject: {fileID: 1900725046}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -10, y: -1, z: 0}
-  m_LocalScale: {x: 3.75, y: 3.75, z: 3.75}
+  m_LocalScale: {x: 2.75, y: 2.75, z: 3.75}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
@@ -1777,7 +1777,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 8
-  canvas: {fileID: 374572826}
+  UI: {fileID: 1695298154}
+  Menu: {fileID: 374572826}
   playing: 0
   moving: 0
   RigidBody2D: {fileID: 1900725530}

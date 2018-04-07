@@ -1,0 +1,5 @@
+theme: jekyll-theme-cayman
+github:
+  zip_url: https://github.com/LaneHD/What-the-Duck/raw/master/WhatTheDuck.apk
+title: What the Duck?
+show_downloads: true
